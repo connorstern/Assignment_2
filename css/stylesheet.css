@@ -6711,9 +6711,8 @@ h4 {
   text-align: center; }
 
 h5 {
-  font-size: 3em;
-  color: #DDDDDD;
-  text-align: center; }
+  font-size: 1.8em;
+  color: #DDDDDD; }
 
 p {
   font-size: 1.3em;
@@ -6722,9 +6721,14 @@ p {
 
 #content {
   width: 100%;
-  height: 1800px;
+  height: 1900px;
   background-color: #941512; }
 
+@media (max-width: 200px) {
+  #content {
+    width: 100%;
+    height: 2200px;
+    background-color: #941512; } }
 #me {
   margin-top: 5%;
   margin-left: 10%;
@@ -6736,9 +6740,18 @@ p {
   float: left;
   width: 80%;
   background-color: #222222;
-  height: 1600px;
+  height: 1800px;
   opacity: 0.9; }
 
+@media (max-width: 200px) {
+  #aboutme {
+    margin-top: 1%;
+    margin-left: 9%;
+    float: left;
+    width: 80%;
+    background-color: #222222;
+    height: 2100px;
+    opacity: 0.9; } }
 .title {
   margin-left: 7%;
   margin-top: 3%;
@@ -6801,57 +6814,14 @@ p {
   width: 50%;
   height: 30px; }
 
-.skipping {
-  position: absolute;
-  left: 1%;
-  top: 29%; }
-
-.donotenter {
-  position: absolute;
-  left: 22%;
-  top: 29%; }
-
 #form {
   position: absolute;
   margin-top: 2%;
   margin-left: 35%;
   width: 30%; }
 
-.firstname {
-  font-size: 2em;
-  text-align: center; }
-
-.lastname {
-  font-size: 2em;
-  text-align: center; }
-
-.email {
-  font-size: 2em;
-  text-align: center; }
-
-.phonenumber {
-  font-size: 2em;
-  text-align: center; }
-
-.comments {
-  font-size: 2em;
-  text-align: center; }
-
 .submit {
   text-align: center; }
-
-#tripsquad {
-  position: absolute;
-  margin-top: 1%;
-  width: 10%;
-  margin-left: 7%; }
-
-#tripsquadtext {
-  position: absolute;
-  margin-left: 27%;
-  width: 35%;
-  margin-top: 1%;
-  color: #FFFFFF; }
 
 .title3 {
   margin-left: 32%;
@@ -6936,6 +6906,71 @@ p {
 body#home #navhome, body#about #navabout, body#photography #navphotography, body#websites #navwebsites, body#contact #navcontact, body#resume #navresume {
   color: #941512; }
 
+.media-left {
+  color: #DDDDDD;
+  font-size: 1.5em; }
+
+.media-heading {
+  width: 1000px;
+  margin-top: .25%; }
+
+@media (max-width: 1099px) {
+  .media-heading {
+    width: 1000px;
+    margin-top: .25%;
+    font-size: 1.2em; } }
+@media (max-width: 1099px) {
+  .media-left {
+    font-size: 1.2em; } }
+.media {
+  margin-top: 5%;
+  width: 1000px; }
+
+@media (max-width: 1000px) {
+  .media {
+    margin-top: 3%;
+    width: 1000px;
+    margin-left: 15%; } }
+@media (min-width: 1001px) and (max-width: 1500px) {
+  .media {
+    font-size: .98em;
+    margin-top: 3%;
+    width: 1000px;
+    margin-left: 15%; } }
+#years {
+  margin-top: 5%; }
+
+.alert-success {
+  width: 70%;
+  margin-top: 1%;
+  margin-left: 5%; }
+
+@media (max-width: 1000px) {
+  .alert-success {
+    width: 70%;
+    margin-top: 1%;
+    margin-left: 15%; } }
+.alert-info {
+  width: 70%;
+  margin-left: 5%; }
+
+@media (max-width: 1000px) {
+  .alert-info {
+    width: 70%;
+    margin-left: 15%; } }
+.connorstern {
+  color: #DDDDDD;
+  font-size: 2.5em;
+  text-align: center; }
+
+.profile-image {
+  width: 10%;
+  display: block;
+  margin: auto; }
+
+@media (max-width: 1000px) {
+  .navigation {
+    font-size: .65em; } }
 /*# sourceMappingURL=stylesheet.css.map */
 
 /*# sourceMappingURL=stylesheet.css.map */
